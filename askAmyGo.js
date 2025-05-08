@@ -5,7 +5,7 @@ async function askAmyGo() {
   responseBox.innerHTML = "AmyGo is thinking... 💭";
 
   try {
-    const res = await fetch("https://eo27a7qp8ringwa.m.pipedream.net", {
+    const res = await fetch("https://amygo.madeirinha13.workers.dev/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
